@@ -1,13 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Moksha Architech</title>
     <link rel="stylesheet" href="ind.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello Dev</h1>
-</body>
+    <script src="https://kit.fontawesome.com/248a55d9e4.js" crossorigin="anonymous"></script>  
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="Images/logo.png" alt="logo"/></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" ></i>
+        </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#top">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+      <video autoplay loop  muted plays-inline class="back-video">
+        <source src="Images/video.mp4" type="video/mp4">
+      </video>
+      <h1 class="titile">MOKSHA ARCHITECTS</h1> 
+          <a href="#">Explore</a>
+    </div>
+
+    <!-- welcome section-->
+
+    <div class="bg-container" id ="about-us">
+      <div class="row">
+          <div class="col-md-4 mt-3">
+              <!-- single slider  -->
+              <div class="container2">
+                <img src="Images/hilight1.jpg" alt="page" class="img1"/>
+                <div class="middle">
+                  <div class="text">View more</div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+              <!-- section title  -->
+              <h2 class="section-title">Welcome we are <strong>Moksha Architect</strong></h2>
+              <p class="description">Moksha Architects is a Hyderabad based establishment with more than 16 years of experience in providing the best and reliable services in the city. We provide custom and personalised services that fulfil your needs. Experience sustainable modern spaces that include but are not restricted to houses, offices, studios, education and healthcare. We are a team trusted by various members of the society in creating and recreating your personal and commercial environments without spending your own time and effort.</p>
+              <div class="process-box">
+                  <h3>Our process</h3>
+                  <ul class="creat-list">
+                      <li><a href="#">Idea &amp; Start</a></li>
+                      <li><a href="#">Design &amp; Crate</a></li>
+                      <li><a href="#">Build &amp; Finish</a></li>
+                  </ul>
+              </div>
+              <a href="#" class="btn anim-button fl-l"><span>View Our portfolio</span><i class="fa fa-long-arrow-right"></i></a>
+          </div>
+      </div>
+  </div>
+  <!--Service section-->
+  <section id ="services">
+    <!--  container  --> 
+    <div class="container3">
+        <div class="row">
+          <div class="d-flex flex-row justify-content-center">
+            <div class="col-md-5">
+                <h2 class="section-title1">Some Interisting <strong> Facts</strong></h2>
+                <p>Our team takes over everything, from an idea and concept development to realization. We believe in traditions and incorporate them within our innovations. All our projects incorporate a unique artistic image and functional solutions. Client is the soul of the project. Our main goal is to illustrate his/hers values and individuality through design.</p>
+            </div>
+            <div class="col-md-7">
+                <h1 class="section-title1">Achivements</h1>
+                <img src="Images/awd.jpeg" alt="award"/>
+                <img src="Images/awd2.jpeg" alt="award" class="ml-2 mt-2"/>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+              <img src="Images/logo.png" alt="logo"/>
+            </div>
+            <div class="col-md-8">
+                <!-- facts   -->  
+                <div class="inline-facts-holder row">
+                    <!-- 1 -->
+                    <div class="inline-facts col-md-4 ">
+                        <div class="milestone-counter">
+                            <div class="stats animaper">
+                                <div class="num" data-content="30+" data-num="30">30+</div>
+                            </div>
+                        </div>
+                        <h6>Finished projects</h6>
+                    </div>
+                    <!-- 3 -->
+                    <div class="inline-facts col-md-4">
+                        <div class="milestone-counter">
+                            <div class="stats animaper">
+                                <div class="num" data-content="50+" data-num="50">50+</div>
+                            </div>
+                        </div>
+                        <h6>Served Companies</h6>
+                    </div>
+                    <!-- 3 -->
+                    <div class="inline-facts col-md-4">
+                        <div class="milestone-counter">
+                            <div class="stats animaper">
+                                <div class="num" data-content="16+" data-num="16">16+</div>
+                            </div>
+                        </div>
+                        <h6>Working Experience</h6>
+                    </div>
+                </div>
+                <!-- facts   end --> 
+            </div>
+        </div>
+    </div>
+    <!--  container  end --> 
+</section>
+
+<!--Project section-->
+
+  <div class="container4" id="portfolio">
+    <section>
+        <!--  container  --> 
+        <div class="container">
+            <!--  section title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title algn-right dec-title"><span>Our featured  <strong> Works</strong></span></h2>
+                </div>
+            </div>
+            <!--  section title end  -->
+            <!--  Parallax items  -->
+            <!-- 1 --> 
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="parallax-item left-direction">
+                        <div class="paralax-media">
+                            <ul class="creat-list">
+                                <li><a href="#" class="mb-2">Haldi Golf <i class="fa-solid fa-arrow-right"></i></a></li>
+                                <li><a href="#">Club House <i class="fa-solid fa-arrow-right"></i></a></li>
+                               <!--  <li><a href="#">Skyscraper</a></li> -->
+                            </ul>
+                            <div class="paralax-wrap">
+                                <img src="Images/golf.jpg" class="respimg" alt="haldi golf">
+                            </div>
+                        </div>
+                        <div class="parallax-deck" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);">
+                            <div class="parallax-deck-item">
+                                <h3>Haldi Golf <strong>400 East &amp; 400 West Faced Villas</strong></h3>
+                                <a href="#" class="btn anim-button fl-l"><span>View Project</span><i class="fa fa-long-arrow-right"></i></a>                                                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                  <button class="btn btn-primary mt-2">View more</button>
+                </div>
+            </div>
+            <!-- 1 end--> 
+            <!-- 2 --> 
+            <div class="row">
+                <div class="col-md-5">
+                  <button class="btn btn-primary">View more</button>
+                </div>
+                <div class="col-md-7">
+                    <div class="parallax-item right-direction">
+                        <div class="paralax-media">
+                            <ul class="creat-list">
+                                <li><a href="#" class="mb-2">Happiness Hub <i class="fa-solid fa-arrow-right"></i></a></li>
+                                <li><a href="#">Happiness Club House <i class="fa-solid fa-arrow-right"></i></a></li>
+                            </ul>
+                            <div class="paralax-wrap">  
+                                <img src="Images/happyhub.jpg" class="respimg" alt="happiness-hub">
+                            </div>
+                        </div>
+                        <div class="parallax-deck" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);">
+                            <div class="parallax-deck-item">
+                                <h3>Happiness Hub <strong>(Residential Apartments)</strong></h3>
+                                <a href="#" class="btn anim-button fl-l"><span>View Project</span><i class="fa fa-long-arrow-right"></i></a>                                                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 end-->                                    
+            <!-- 3 --> 
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="parallax-item left-direction">
+                        <div class="paralax-media">
+                            <ul class="creat-list">
+                                <li><a href="#" class="mb-2">Hi Vision Heights <i class="fa-solid fa-arrow-right"></i></a></li>
+                                <li><a href="#">Club House <i class="fa-solid fa-arrow-right"></i></a></li>
+                                <!-- <li><a href="#">Skyscraper</a></li> -->
+                            </ul>
+                            <div class="paralax-wrap"> 
+                                <img src="Images/big.jpg" class="respimg" alt="building">
+                            </div>
+                        </div>
+                        <div class="parallax-deck" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);">
+                            <div class="parallax-deck-item">
+                                <h3>HiVision Heights <strong>Residential Apartments</strong></h3>
+                                <a href="#" class="btn anim-button fl-l"><span>View Project</span><i class="fa fa-long-arrow-right"></i></a>                                                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                  <button class="btn btn-primary mt-2">View more</button>
+                </div>
+            </div>
+            <!-- 3 end-->   
+
+            <!-- 4 --> 
+            <div class="row">
+                <div class="col-md-5">
+                  <button class="btn btn-primary mt-2">View more</button>
+                </div>
+                <div class="col-md-7">
+                    <div class="parallax-item right-direction">
+                        <div class="paralax-media">
+                            <ul class="creat-list">
+                                <li><a href="#" class="mb-2">Prospera Villas <i class="fa-solid fa-arrow-right"></i></a></li>
+                                <li><a href="#">Club House <i class="fa-solid fa-arrow-right"></i></a></li>
+                            </ul>
+                            <div class="paralax-wrap">  
+                                <img src="Images/folio.jpg" class="respimg" alt="car">
+                            </div>
+                        </div>
+                        <div class="parallax-deck" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);">
+                            <div class="parallax-deck-item">
+                                <h3>Prospera County <strong>(Gated Community Villas)</strong></h3>
+                                <a href="#" class="btn anim-button fl-l"><span>View Project</span><i class="fa fa-long-arrow-right"></i></a>                                                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 end--> 
+
+            <!-- 5 --> 
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="parallax-item left-direction">
+                        <div class="paralax-media">
+                            <ul class="creat-list">
+                                <li><a href="#" class="mb-2">VUE (Residential Apartments) <i class="fa-solid fa-arrow-right"></i></a></li>
+                                <li><a href="#">Club House <i class="fa-solid fa-arrow-right"></i></a></li>
+                                <!-- <li><a href="#">Skyscraper</a></li> -->
+                            </ul>
+                            <div class="paralax-wrap"> 
+                                <img src="Images/car.jpg" class="respimg" alt="">
+                            </div>
+                        </div>
+                        <div class="parallax-deck" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);" >
+                            <div class="parallax-deck-item">
+                                <h3>VUE <strong>Residential Apartments</strong></h3>
+                                <a href="#" class="btn anim-button fl-l"><span>View Project</span><i class="fa fa-long-arrow-right"></i></a>                                                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                  <button class="btn btn-primary mt-2">View more</button>
+
+                </div>
+            </div>
+            <!-- 5 end--> 
+
+            <!-- 6 --> 
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-7">
+                    <div class="parallax-item right-direction">
+                        <div class="paralax-media">
+                            <ul class="creat-list">
+                                <li><a href="#" class="mb-2">ACE <i class="fa-solid fa-arrow-right"></i></a></li>
+                                <li><a href="#">Apurva Align <i class="fa-solid fa-arrow-right"></i></a></li>
+                            </ul>
+                            <div class="paralax-wrap">  
+                                <img src="Images/folio.jpg" class="respimg" alt="">
+                            </div>
+                        </div>
+                        <div class="parallax-deck" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);">
+                            <div class="parallax-deck-item">
+                                <h3>ACE <br><strong>Apurva Villas</strong></h3>
+                                <a href="#" class="btn anim-button fl-l"><span>View Project</span><i class="fa fa-long-arrow-right"></i></a>                                                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  container  end --> 
+    </section>
+</div>
+<div class="container-5">
+  <div class="ser-title">
+    <!-- <h3 style="font-size: 30px;">16years </h3> -->
+     <h3 class="projects">30+ projects</h3>
+    <h3> 50+ services for companies</h3><br>
+   
+    <div class="valp mb-2"> 
+      <a href="#" class="btn btn-secondary"><span>View All Projects</span><i class="fa fa-long-arrow-right"></i></a> 
+    </div> 
+</div>
+
+</div>
+<!--footer section-->
+<section id="footer" >
+  <div class="container6">
+    <div class="row">
+      <div class="col-md-4 footer-box">
+        <img src="Images/logo.png" class="jkd" alt="logo"/>
+        <p>Our team takes over everything, from an idea and concept development to realization. 
+          We believe in traditions and incorporate them within our innovations.</p>
+      </div>
+      <div class="col-md-4 footer-box">
+        <p><b>CONTACT US</b></p>
+        <p><i class="fa-solid fa-location-dot"></i> PLOT NO: 67, SRINIVASA SQUARE 1ST FLOOR, GAFFOOR NAGAR, MADHAPUR, HYDERABAD, TELANGANA 500081</p>
+        <p><i class="fa-solid fa-phone"></i> +91-8596058960</p>
+        <p><i class="fa-regular fa-envelope"></i> moksha@gmail.com</p>
+      </div>
+      <div class="col-md-4 footer-box">
+        <p><b>SUBSCRIBE NEWSLETTER</b></p>
+        <input type="email" class="form-control" placeholder="Enter your mail id"/>
+        <button type="button" class="btn btn-primary mt-2">Subscribe</button>
+      </div>
+    </div>
+    <hr/>
+    <p class="lastone">copyright@2023.All rights reserved!</p>
+
+  </div>
+ 
+
+</section>
+
+  <script src="smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+      
+  </body>
 </html>
